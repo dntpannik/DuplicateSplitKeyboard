@@ -66,11 +66,11 @@ X 6/PD7 9 -350 -950 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Split-Keyboard---Right-rescue_D-keyboard_parts
+# keyboard_parts_D
 #
-DEF Split-Keyboard---Right-rescue_D-keyboard_parts D 0 40 Y Y 1 F N
+DEF keyboard_parts_D D 0 40 Y Y 1 F N
 F0 "D" -150 -50 60 V V C CNN
-F1 "Split-Keyboard---Right-rescue_D-keyboard_parts" 150 -50 60 V I C CNN
+F1 "keyboard_parts_D" 150 -50 60 V I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -81,11 +81,11 @@ X ~ 2 0 -150 50 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Split-Keyboard---Right-rescue_SW_PUSH-keyboard_parts
+# keyboard_parts_SW_PUSH
 #
-DEF Split-Keyboard---Right-rescue_SW_PUSH-keyboard_parts SW 0 40 N N 1 F N
+DEF keyboard_parts_SW_PUSH SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "Split-Keyboard---Right-rescue_SW_PUSH-keyboard_parts" 0 -80 50 H V C CNN
+F1 "keyboard_parts_SW_PUSH" 0 -80 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
