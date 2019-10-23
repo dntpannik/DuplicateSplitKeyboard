@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:\\Users\\Chris\\Documents\\Repos\\DuplicateSplitKeyboard\\PCB Design\\Left\\Keyboard.sch")
-    (date "10/9/2019 10:07:00 PM")
+    (source "C:\\Users\\Chris\\Documents\\Repos\\DuplicateSplitKeyboard\\PCB Design\\Left\\Keyboard - Left.sch")
+    (date "10/23/2019 8:00:53 AM")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -9,7 +9,7 @@
         (company)
         (rev)
         (date)
-        (source Keyboard.sch)
+        (source "Keyboard - Left.sch")
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
@@ -737,7 +737,7 @@
       (tstamp 5CC54F2E))
     (comp (ref J1)
       (value AudioJack4)
-      (footprint Connector_Audio:Jack_3.5mm_PJ320D_Horizontal)
+      (footprint Keebio-Parts:TRRS-PJ-320A)
       (datasheet ~)
       (libsource (lib Connector) (part AudioJack4) (description "Audio Jack, 4 Poles (TRRS)"))
       (sheetpath (names /) (tstamps /))

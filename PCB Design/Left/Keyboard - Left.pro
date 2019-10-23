@@ -1,4 +1,4 @@
-update=10/9/2019 8:36:14 PM
+update=10/22/2019 8:58:31 PM
 version=1
 last_client=pcbnew
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Keyboard.net
+LastNetListRead=Keyboard - Left.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0

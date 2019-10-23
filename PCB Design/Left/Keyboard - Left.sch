@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Keyboard-cache
+LIBS:Keyboard - Left-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1705,7 +1705,7 @@ U 1 1 5CD4675F
 P 1900 7950
 F 0 "J1" H 1857 8275 50  0000 C CNN
 F 1 "AudioJack4" H 1857 8184 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 1900 7950 50  0001 C CNN
+F 2 "Keebio-Parts:TRRS-PJ-320A" H 1900 7950 50  0001 C CNN
 F 3 "~" H 1900 7950 50  0001 C CNN
 	1    1900 7950
 	1    0    0    -1  
