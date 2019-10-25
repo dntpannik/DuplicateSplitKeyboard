@@ -25,11 +25,26 @@ X ~ T 200 -200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Microcontroller_ProMicroEliteC
+# Split-Keyboard---Right-rescue_D-keyboard_parts
 #
-DEF Microcontroller_ProMicroEliteC U 0 40 Y Y 1 F N
+DEF Split-Keyboard---Right-rescue_D-keyboard_parts D 0 40 Y Y 1 F N
+F0 "D" -150 -50 60 V V C CNN
+F1 "Split-Keyboard---Right-rescue_D-keyboard_parts" 150 -50 60 V I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -100 0 100 0 N
+P 4 0 1 0 0 0 -100 -100 100 -100 0 0 F
+X ~ 1 0 50 50 D 60 60 1 1 P
+X ~ 2 0 -150 50 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Split-Keyboard---Right-rescue_ProMicroEliteC-Microcontroller
+#
+DEF Split-Keyboard---Right-rescue_ProMicroEliteC-Microcontroller U 0 40 Y Y 1 F N
 F0 "U" 50 150 50 H V C CNN
-F1 "Microcontroller_ProMicroEliteC" 100 50 50 H V C CNN
+F1 "Split-Keyboard---Right-rescue_ProMicroEliteC-Microcontroller" 100 50 50 H V C CNN
 F2 "" 50 150 50 H I C CNN
 F3 "" 50 150 50 H I C CNN
 DRAW
@@ -66,26 +81,11 @@ X 6/PD7 9 -350 -950 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# keyboard_parts_D
+# Split-Keyboard---Right-rescue_SW_PUSH-keyboard_parts
 #
-DEF keyboard_parts_D D 0 40 Y Y 1 F N
-F0 "D" -150 -50 60 V V C CNN
-F1 "keyboard_parts_D" 150 -50 60 V I C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 2 0 1 0 -100 0 100 0 N
-P 4 0 1 0 0 0 -100 -100 100 -100 0 0 F
-X ~ 1 0 50 50 D 60 60 1 1 P
-X ~ 2 0 -150 50 U 60 60 1 1 P
-ENDDRAW
-ENDDEF
-#
-# keyboard_parts_SW_PUSH
-#
-DEF keyboard_parts_SW_PUSH SW 0 40 N N 1 F N
+DEF Split-Keyboard---Right-rescue_SW_PUSH-keyboard_parts SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "keyboard_parts_SW_PUSH" 0 -80 50 H V C CNN
+F1 "Split-Keyboard---Right-rescue_SW_PUSH-keyboard_parts" 0 -80 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW

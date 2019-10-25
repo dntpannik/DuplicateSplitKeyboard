@@ -18,44 +18,42 @@ Text GLabel 4450 5350 0    50   Input ~ 0
 Data1
 Text GLabel 4450 5250 0    50   Input ~ 0
 Data2
-Text GLabel 4450 5550 0    50   Input ~ 0
+Text GLabel 5350 5450 2    50   Input ~ 0
 RowA
-Text GLabel 4450 5950 0    50   Input ~ 0
+Text GLabel 5350 5950 2    50   Input ~ 0
 RowF
-Text GLabel 4450 5850 0    50   Input ~ 0
+Text GLabel 5350 5850 2    50   Input ~ 0
 RowE
-Text GLabel 4450 5750 0    50   Input ~ 0
+Text GLabel 5350 5750 2    50   Input ~ 0
 RowD
-Text GLabel 4450 5450 0    50   Input ~ 0
+Text GLabel 5350 5650 2    50   Input ~ 0
 RowC
-Text GLabel 4450 5650 0    50   Input ~ 0
+Text GLabel 5350 5550 2    50   Input ~ 0
 RowB
 Text GLabel 4950 6300 3    50   Input ~ 0
 Col6
-Text GLabel 5050 6300 3    50   Input ~ 0
+Text GLabel 4850 6300 3    50   Input ~ 0
 Col7
-Text GLabel 5350 5950 2    50   Input ~ 0
+Text GLabel 4750 6300 3    50   Input ~ 0
 Col8
-Text GLabel 5350 5850 2    50   Input ~ 0
+Text GLabel 4650 6300 3    50   Input ~ 0
 Col9
-Text GLabel 5350 5750 2    50   Input ~ 0
+Text GLabel 4450 5950 0    50   Input ~ 0
 Col10
-Text GLabel 5350 5650 2    50   Input ~ 0
+Text GLabel 4450 5750 0    50   Input ~ 0
 Col11
-Text GLabel 5350 5550 2    50   Input ~ 0
+Text GLabel 4450 5650 0    50   Input ~ 0
 Col12
 Text GLabel 5350 5050 2    50   Input ~ 0
 Reset
-Text GLabel 5350 5450 2    50   Input ~ 0
+Text GLabel 4450 5850 0    50   Input ~ 0
 Col1
-Text GLabel 5350 5350 2    50   Input ~ 0
-Col2
 Text GLabel 5350 5250 2    50   Input ~ 0
+Col2
+Text GLabel 5350 5350 2    50   Input ~ 0
 Col3
-Text GLabel 4850 6300 3    50   Input ~ 0
+Text GLabel 5050 6300 3    50   Input ~ 0
 Col5
-Text GLabel 4750 6300 3    50   Input ~ 0
-Col4
 $Comp
 L power:GND #PWR0103
 U 1 1 5CB4E6C3
@@ -116,7 +114,7 @@ Data1
 Text GLabel 2800 5600 2    50   Input ~ 0
 Data2
 $Comp
-L keyboard_parts:SW_PUSH SW_R1
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_R1
 U 1 1 5CB54338
 P 2350 7000
 F 0 "SW_R1" H 2350 7255 50  0000 C CNN
@@ -140,7 +138,7 @@ $EndComp
 Text GLabel 2050 7000 0    50   Input ~ 0
 Reset
 $Comp
-L keyboard_parts:SW_PUSH SW_C12
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_C12
 U 1 1 5CB55D73
 P 850 2300
 F 0 "SW_C12" H 850 2555 50  0000 C CNN
@@ -151,7 +149,7 @@ F 3 "" H 850 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_C12
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_C12
 U 1 1 5CB5683D
 P 1150 2450
 F 0 "D_C12" H 1022 2400 60  0000 R CNN
@@ -162,7 +160,7 @@ F 3 "" H 1150 2450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_A11
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_A11
 U 1 1 5CB5E63D
 P 1700 1200
 F 0 "SW_A11" H 1700 1455 50  0000 C CNN
@@ -173,7 +171,7 @@ F 3 "" H 1700 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_A11
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_A11
 U 1 1 5CB5E643
 P 2000 1350
 F 0 "D_A11" H 1872 1300 60  0000 R CNN
@@ -184,7 +182,7 @@ F 3 "" H 2000 1350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_B11
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_B11
 U 1 1 5CB5EC25
 P 1700 1750
 F 0 "SW_B11" H 1700 2005 50  0000 C CNN
@@ -195,7 +193,7 @@ F 3 "" H 1700 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_B11
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_B11
 U 1 1 5CB5EC2B
 P 2000 1900
 F 0 "D_B11" H 1872 1850 60  0000 R CNN
@@ -206,7 +204,7 @@ F 3 "" H 2000 1900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_C11
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_C11
 U 1 1 5CB5F303
 P 1700 2300
 F 0 "SW_C11" H 1700 2555 50  0000 C CNN
@@ -217,7 +215,7 @@ F 3 "" H 1700 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_C11
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_C11
 U 1 1 5CB5F309
 P 2000 2450
 F 0 "D_C11" H 1872 2400 60  0000 R CNN
@@ -228,7 +226,7 @@ F 3 "" H 2000 2450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_D11
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_D11
 U 1 1 5CB5FDD5
 P 1700 2850
 F 0 "SW_D11" H 1700 3105 50  0000 C CNN
@@ -239,7 +237,7 @@ F 3 "" H 1700 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_D11
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_D11
 U 1 1 5CB5FDDB
 P 2000 3000
 F 0 "D_D11" H 1872 2950 60  0000 R CNN
@@ -250,7 +248,7 @@ F 3 "" H 2000 3000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_E11
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_E11
 U 1 1 5CB60215
 P 1700 3400
 F 0 "SW_E11" H 1700 3655 50  0000 C CNN
@@ -261,7 +259,7 @@ F 3 "" H 1700 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_E11
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_E11
 U 1 1 5CB6021B
 P 2000 3550
 F 0 "D_E11" H 1872 3500 60  0000 R CNN
@@ -272,7 +270,7 @@ F 3 "" H 2000 3550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_A10
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_A10
 U 1 1 5CB62E15
 P 2600 1200
 F 0 "SW_A10" H 2600 1455 50  0000 C CNN
@@ -283,7 +281,7 @@ F 3 "" H 2600 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_A10
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_A10
 U 1 1 5CB62E1B
 P 2900 1350
 F 0 "D_A10" H 2772 1300 60  0000 R CNN
@@ -294,7 +292,7 @@ F 3 "" H 2900 1350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_B10
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_B10
 U 1 1 5CB62E21
 P 2600 1750
 F 0 "SW_B10" H 2600 2005 50  0000 C CNN
@@ -305,7 +303,7 @@ F 3 "" H 2600 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_B10
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_B10
 U 1 1 5CB62E27
 P 2900 1900
 F 0 "D_B10" H 2772 1850 60  0000 R CNN
@@ -316,7 +314,7 @@ F 3 "" H 2900 1900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_C10
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_C10
 U 1 1 5CB62E2D
 P 2600 2300
 F 0 "SW_C10" H 2600 2555 50  0000 C CNN
@@ -327,7 +325,7 @@ F 3 "" H 2600 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_C10
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_C10
 U 1 1 5CB62E33
 P 2900 2450
 F 0 "D_C10" H 2772 2400 60  0000 R CNN
@@ -338,7 +336,7 @@ F 3 "" H 2900 2450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_D10
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_D10
 U 1 1 5CB62E39
 P 2600 2850
 F 0 "SW_D10" H 2600 3105 50  0000 C CNN
@@ -349,7 +347,7 @@ F 3 "" H 2600 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_D10
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_D10
 U 1 1 5CB62E3F
 P 2900 3000
 F 0 "D_D10" H 2772 2950 60  0000 R CNN
@@ -360,7 +358,7 @@ F 3 "" H 2900 3000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_E10
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_E10
 U 1 1 5CB62E45
 P 2600 3400
 F 0 "SW_E10" H 2600 3655 50  0000 C CNN
@@ -371,7 +369,7 @@ F 3 "" H 2600 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_E10
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_E10
 U 1 1 5CB62E4B
 P 2900 3550
 F 0 "D_E10" H 2772 3500 60  0000 R CNN
@@ -382,7 +380,7 @@ F 3 "" H 2900 3550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_A9
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_A9
 U 1 1 5CB768E8
 P 3450 1200
 F 0 "SW_A9" H 3450 1455 50  0000 C CNN
@@ -393,7 +391,7 @@ F 3 "" H 3450 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_A9
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_A9
 U 1 1 5CB768EE
 P 3750 1350
 F 0 "D_A9" H 3622 1300 60  0000 R CNN
@@ -404,7 +402,7 @@ F 3 "" H 3750 1350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_B9
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_B9
 U 1 1 5CB768F4
 P 3450 1750
 F 0 "SW_B9" H 3450 2005 50  0000 C CNN
@@ -415,7 +413,7 @@ F 3 "" H 3450 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_B9
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_B9
 U 1 1 5CB768FA
 P 3750 1900
 F 0 "D_B9" H 3622 1850 60  0000 R CNN
@@ -426,7 +424,7 @@ F 3 "" H 3750 1900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_C9
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_C9
 U 1 1 5CB76900
 P 3450 2300
 F 0 "SW_C9" H 3450 2555 50  0000 C CNN
@@ -437,7 +435,7 @@ F 3 "" H 3450 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_C9
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_C9
 U 1 1 5CB76906
 P 3750 2450
 F 0 "D_C9" H 3622 2400 60  0000 R CNN
@@ -448,7 +446,7 @@ F 3 "" H 3750 2450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_D9
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_D9
 U 1 1 5CB7690C
 P 3450 2850
 F 0 "SW_D9" H 3450 3105 50  0000 C CNN
@@ -459,7 +457,7 @@ F 3 "" H 3450 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_D9
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_D9
 U 1 1 5CB76912
 P 3750 3000
 F 0 "D_D9" H 3622 2950 60  0000 R CNN
@@ -470,7 +468,7 @@ F 3 "" H 3750 3000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_E9
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_E9
 U 1 1 5CB76918
 P 3450 3400
 F 0 "SW_E9" H 3450 3655 50  0000 C CNN
@@ -481,7 +479,7 @@ F 3 "" H 3450 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_E9
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_E9
 U 1 1 5CB7691E
 P 3750 3550
 F 0 "D_E9" H 3622 3500 60  0000 R CNN
@@ -492,7 +490,7 @@ F 3 "" H 3750 3550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_F8
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_F8
 U 1 1 5CB76924
 P 4300 4000
 F 0 "SW_F8" H 4300 4255 50  0000 C CNN
@@ -503,7 +501,7 @@ F 3 "" H 4300 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_F9
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_F9
 U 1 1 5CB7692A
 P 3750 4150
 F 0 "D_F9" H 3622 4100 60  0000 R CNN
@@ -514,7 +512,7 @@ F 3 "" H 3750 4150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_A8
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_A8
 U 1 1 5CB7A82E
 P 4300 1200
 F 0 "SW_A8" H 4300 1455 50  0000 C CNN
@@ -525,7 +523,7 @@ F 3 "" H 4300 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_A8
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_A8
 U 1 1 5CB7A834
 P 4600 1350
 F 0 "D_A8" H 4472 1300 60  0000 R CNN
@@ -536,7 +534,7 @@ F 3 "" H 4600 1350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_B8
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_B8
 U 1 1 5CB7A83A
 P 4300 1750
 F 0 "SW_B8" H 4300 2005 50  0000 C CNN
@@ -547,7 +545,7 @@ F 3 "" H 4300 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_B8
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_B8
 U 1 1 5CB7A840
 P 4600 1900
 F 0 "D_B8" H 4472 1850 60  0000 R CNN
@@ -558,7 +556,7 @@ F 3 "" H 4600 1900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_C8
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_C8
 U 1 1 5CB7A846
 P 4300 2300
 F 0 "SW_C8" H 4300 2555 50  0000 C CNN
@@ -569,7 +567,7 @@ F 3 "" H 4300 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_C8
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_C8
 U 1 1 5CB7A84C
 P 4600 2450
 F 0 "D_C8" H 4472 2400 60  0000 R CNN
@@ -580,7 +578,7 @@ F 3 "" H 4600 2450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_D8
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_D8
 U 1 1 5CB7A852
 P 4300 2850
 F 0 "SW_D8" H 4300 3105 50  0000 C CNN
@@ -591,7 +589,7 @@ F 3 "" H 4300 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_D8
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_D8
 U 1 1 5CB7A858
 P 4600 3000
 F 0 "D_D8" H 4472 2950 60  0000 R CNN
@@ -602,7 +600,7 @@ F 3 "" H 4600 3000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_E8
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_E8
 U 1 1 5CB7A85E
 P 4300 3400
 F 0 "SW_E8" H 4300 3655 50  0000 C CNN
@@ -613,7 +611,7 @@ F 3 "" H 4300 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_E8
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_E8
 U 1 1 5CB7A864
 P 4600 3550
 F 0 "D_E8" H 4472 3500 60  0000 R CNN
@@ -624,7 +622,7 @@ F 3 "" H 4600 3550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_A7
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_A7
 U 1 1 5CB7C772
 P 5150 1200
 F 0 "SW_A7" H 5150 1455 50  0000 C CNN
@@ -635,7 +633,7 @@ F 3 "" H 5150 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_A7
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_A7
 U 1 1 5CB7C778
 P 5450 1350
 F 0 "D_A7" H 5322 1300 60  0000 R CNN
@@ -646,7 +644,7 @@ F 3 "" H 5450 1350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_B7
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_B7
 U 1 1 5CB7C77E
 P 5150 1750
 F 0 "SW_B7" H 5150 2005 50  0000 C CNN
@@ -657,7 +655,7 @@ F 3 "" H 5150 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_B7
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_B7
 U 1 1 5CB7C784
 P 5450 1900
 F 0 "D_B7" H 5322 1850 60  0000 R CNN
@@ -668,7 +666,7 @@ F 3 "" H 5450 1900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_C7
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_C7
 U 1 1 5CB7C78A
 P 5150 2300
 F 0 "SW_C7" H 5150 2555 50  0000 C CNN
@@ -679,7 +677,7 @@ F 3 "" H 5150 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_C7
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_C7
 U 1 1 5CB7C790
 P 5450 2450
 F 0 "D_C7" H 5322 2400 60  0000 R CNN
@@ -690,7 +688,7 @@ F 3 "" H 5450 2450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_D7
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_D7
 U 1 1 5CB7C796
 P 5150 2850
 F 0 "SW_D7" H 5150 3105 50  0000 C CNN
@@ -701,7 +699,7 @@ F 3 "" H 5150 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_D7
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_D7
 U 1 1 5CB7C79C
 P 5450 3000
 F 0 "D_D7" H 5322 2950 60  0000 R CNN
@@ -712,7 +710,7 @@ F 3 "" H 5450 3000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_E7
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_E7
 U 1 1 5CB7C7A2
 P 5150 3400
 F 0 "SW_E7" H 5150 3655 50  0000 C CNN
@@ -723,7 +721,7 @@ F 3 "" H 5150 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_E7
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_E7
 U 1 1 5CB7C7A8
 P 5450 3550
 F 0 "D_E7" H 5322 3500 60  0000 R CNN
@@ -734,7 +732,7 @@ F 3 "" H 5450 3550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_F7
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_F7
 U 1 1 5CB7C7AE
 P 5150 4000
 F 0 "SW_F7" H 5150 4255 50  0000 C CNN
@@ -745,7 +743,7 @@ F 3 "" H 5150 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_F7
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_F7
 U 1 1 5CB7C7B4
 P 5450 4150
 F 0 "D_F7" H 5322 4100 60  0000 R CNN
@@ -756,7 +754,7 @@ F 3 "" H 5450 4150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_A6
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_A6
 U 1 1 5CB7EFF8
 P 6000 1200
 F 0 "SW_A6" H 6000 1455 50  0000 C CNN
@@ -767,7 +765,7 @@ F 3 "" H 6000 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_A6
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_A6
 U 1 1 5CB7EFFE
 P 6300 1350
 F 0 "D_A6" H 6172 1300 60  0000 R CNN
@@ -778,7 +776,7 @@ F 3 "" H 6300 1350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_B6
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_B6
 U 1 1 5CB7F004
 P 6000 1750
 F 0 "SW_B6" H 6000 2005 50  0000 C CNN
@@ -789,7 +787,7 @@ F 3 "" H 6000 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_B6
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_B6
 U 1 1 5CB7F00A
 P 6300 1900
 F 0 "D_B6" H 6172 1850 60  0000 R CNN
@@ -800,7 +798,7 @@ F 3 "" H 6300 1900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_C6
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_C6
 U 1 1 5CB7F010
 P 6000 2300
 F 0 "SW_C6" H 6000 2555 50  0000 C CNN
@@ -811,7 +809,7 @@ F 3 "" H 6000 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_C6
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_C6
 U 1 1 5CB7F016
 P 6300 2450
 F 0 "D_C6" H 6172 2400 60  0000 R CNN
@@ -822,7 +820,7 @@ F 3 "" H 6300 2450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_D6
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_D6
 U 1 1 5CB7F01C
 P 6000 2850
 F 0 "SW_D6" H 6000 3105 50  0000 C CNN
@@ -833,7 +831,7 @@ F 3 "" H 6000 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_D6
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_D6
 U 1 1 5CB7F022
 P 6300 3000
 F 0 "D_D6" H 6172 2950 60  0000 R CNN
@@ -844,7 +842,7 @@ F 3 "" H 6300 3000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_E6
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_E6
 U 1 1 5CB7F028
 P 6000 3400
 F 0 "SW_E6" H 6000 3655 50  0000 C CNN
@@ -855,7 +853,7 @@ F 3 "" H 6000 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_E6
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_E6
 U 1 1 5CB7F02E
 P 6300 3550
 F 0 "D_E6" H 6172 3500 60  0000 R CNN
@@ -866,7 +864,7 @@ F 3 "" H 6300 3550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_F6
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_F6
 U 1 1 5CB7F034
 P 6000 4000
 F 0 "SW_F6" H 6000 4255 50  0000 C CNN
@@ -877,7 +875,7 @@ F 3 "" H 6000 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_F6
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_F6
 U 1 1 5CB7F03A
 P 6300 4150
 F 0 "D_F6" H 6172 4100 60  0000 R CNN
@@ -888,7 +886,7 @@ F 3 "" H 6300 4150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_A5
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_A5
 U 1 1 5CB80346
 P 6850 1200
 F 0 "SW_A5" H 6850 1455 50  0000 C CNN
@@ -899,7 +897,7 @@ F 3 "" H 6850 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_A5
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_A5
 U 1 1 5CB8034C
 P 7150 1350
 F 0 "D_A5" H 7022 1300 60  0000 R CNN
@@ -910,7 +908,7 @@ F 3 "" H 7150 1350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_B5
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_B5
 U 1 1 5CB80352
 P 6850 1750
 F 0 "SW_B5" H 6850 2005 50  0000 C CNN
@@ -921,7 +919,7 @@ F 3 "" H 6850 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_B5
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_B5
 U 1 1 5CB80358
 P 7150 1900
 F 0 "D_B5" H 7022 1850 60  0000 R CNN
@@ -932,7 +930,7 @@ F 3 "" H 7150 1900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D D_C5
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_C5
 U 1 1 5CB80364
 P 7150 2450
 F 0 "D_C5" H 7022 2400 60  0000 R CNN
@@ -943,7 +941,7 @@ F 3 "" H 7150 2450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_D5
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_D5
 U 1 1 5CB8036A
 P 6850 2850
 F 0 "SW_D5" H 6850 3105 50  0000 C CNN
@@ -954,7 +952,7 @@ F 3 "" H 6850 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_D5
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_D5
 U 1 1 5CB80370
 P 7150 3000
 F 0 "D_D5" H 7022 2950 60  0000 R CNN
@@ -965,7 +963,7 @@ F 3 "" H 7150 3000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_F5
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_F5
 U 1 1 5CB80382
 P 6850 4000
 F 0 "SW_F5" H 6850 4255 50  0000 C CNN
@@ -976,7 +974,7 @@ F 3 "" H 6850 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_F5
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_F5
 U 1 1 5CB80388
 P 7150 4150
 F 0 "D_F5" H 7022 4100 60  0000 R CNN
@@ -987,7 +985,7 @@ F 3 "" H 7150 4150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_A4
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_A4
 U 1 1 5CB81EF4
 P 7700 1200
 F 0 "SW_A4" H 7700 1455 50  0000 C CNN
@@ -998,7 +996,7 @@ F 3 "" H 7700 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_A4
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_A4
 U 1 1 5CB81EFA
 P 8000 1350
 F 0 "D_A4" H 7872 1300 60  0000 R CNN
@@ -1009,7 +1007,7 @@ F 3 "" H 8000 1350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_B4
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_B4
 U 1 1 5CB81F00
 P 7700 1750
 F 0 "SW_B4" H 7700 2005 50  0000 C CNN
@@ -1020,7 +1018,7 @@ F 3 "" H 7700 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_B4
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_B4
 U 1 1 5CB81F06
 P 8000 1900
 F 0 "D_B4" H 7872 1850 60  0000 R CNN
@@ -1031,7 +1029,7 @@ F 3 "" H 8000 1900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_C4
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_C4
 U 1 1 5CB81F0C
 P 7700 2300
 F 0 "SW_C4" H 7700 2555 50  0000 C CNN
@@ -1042,7 +1040,7 @@ F 3 "" H 7700 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_C4
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_C4
 U 1 1 5CB81F12
 P 8000 2450
 F 0 "D_C4" H 7872 2400 60  0000 R CNN
@@ -1053,7 +1051,7 @@ F 3 "" H 8000 2450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_D4
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_D4
 U 1 1 5CB81F18
 P 7700 2850
 F 0 "SW_D4" H 7700 3105 50  0000 C CNN
@@ -1064,7 +1062,7 @@ F 3 "" H 7700 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_D4
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_D4
 U 1 1 5CB81F1E
 P 8000 3000
 F 0 "D_D4" H 7872 2950 60  0000 R CNN
@@ -1075,7 +1073,7 @@ F 3 "" H 8000 3000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_E4
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_E4
 U 1 1 5CB81F24
 P 7700 3400
 F 0 "SW_E4" H 7700 3655 50  0000 C CNN
@@ -1086,7 +1084,7 @@ F 3 "" H 7700 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_E4
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_E4
 U 1 1 5CB81F2A
 P 8000 3550
 F 0 "D_E4" H 7872 3500 60  0000 R CNN
@@ -1097,7 +1095,7 @@ F 3 "" H 8000 3550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_F4
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_F4
 U 1 1 5CB81F30
 P 7700 4000
 F 0 "SW_F4" H 7700 4255 50  0000 C CNN
@@ -1108,7 +1106,7 @@ F 3 "" H 7700 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_F4
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_F4
 U 1 1 5CB81F36
 P 8000 4150
 F 0 "D_F4" H 7872 4100 60  0000 R CNN
@@ -1119,7 +1117,7 @@ F 3 "" H 8000 4150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_A3
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_A3
 U 1 1 5CB84DF4
 P 8550 1200
 F 0 "SW_A3" H 8550 1455 50  0000 C CNN
@@ -1130,7 +1128,7 @@ F 3 "" H 8550 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_A3
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_A3
 U 1 1 5CB84DFA
 P 8850 1350
 F 0 "D_A3" H 8722 1300 60  0000 R CNN
@@ -1141,7 +1139,7 @@ F 3 "" H 8850 1350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_B3
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_B3
 U 1 1 5CB84E00
 P 8550 1750
 F 0 "SW_B3" H 8550 2005 50  0000 C CNN
@@ -1152,7 +1150,7 @@ F 3 "" H 8550 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_B3
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_B3
 U 1 1 5CB84E06
 P 8850 1900
 F 0 "D_B3" H 8722 1850 60  0000 R CNN
@@ -1163,7 +1161,7 @@ F 3 "" H 8850 1900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_C3
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_C3
 U 1 1 5CB84E0C
 P 8550 2300
 F 0 "SW_C3" H 8550 2555 50  0000 C CNN
@@ -1174,7 +1172,7 @@ F 3 "" H 8550 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_C3
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_C3
 U 1 1 5CB84E12
 P 8850 2450
 F 0 "D_C3" H 8722 2400 60  0000 R CNN
@@ -1185,7 +1183,7 @@ F 3 "" H 8850 2450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_F3
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_F3
 U 1 1 5CB84E30
 P 8550 4000
 F 0 "SW_F3" H 8550 4255 50  0000 C CNN
@@ -1196,7 +1194,7 @@ F 3 "" H 8550 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_F3
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_F3
 U 1 1 5CB84E36
 P 8850 4150
 F 0 "D_F3" H 8722 4100 60  0000 R CNN
@@ -1207,7 +1205,7 @@ F 3 "" H 8850 4150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_A2
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_A2
 U 1 1 5CBD36E7
 P 9400 1200
 F 0 "SW_A2" H 9400 1455 50  0000 C CNN
@@ -1218,7 +1216,7 @@ F 3 "" H 9400 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_A2
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_A2
 U 1 1 5CBD36ED
 P 9700 1350
 F 0 "D_A2" H 9572 1300 60  0000 R CNN
@@ -1229,7 +1227,7 @@ F 3 "" H 9700 1350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_B2
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_B2
 U 1 1 5CBD36F3
 P 9400 1750
 F 0 "SW_B2" H 9400 2005 50  0000 C CNN
@@ -1240,7 +1238,7 @@ F 3 "" H 9400 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_B2
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_B2
 U 1 1 5CBD36F9
 P 9700 1900
 F 0 "D_B2" H 9572 1850 60  0000 R CNN
@@ -1251,7 +1249,7 @@ F 3 "" H 9700 1900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_C2
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_C2
 U 1 1 5CBD36FF
 P 9400 2300
 F 0 "SW_C2" H 9400 2555 50  0000 C CNN
@@ -1262,7 +1260,7 @@ F 3 "" H 9400 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_C2
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_C2
 U 1 1 5CBD3705
 P 9700 2450
 F 0 "D_C2" H 9572 2400 60  0000 R CNN
@@ -1273,7 +1271,7 @@ F 3 "" H 9700 2450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_F2
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_F2
 U 1 1 5CBD3723
 P 9400 4000
 F 0 "SW_F2" H 9400 4255 50  0000 C CNN
@@ -1284,7 +1282,7 @@ F 3 "" H 9400 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_F2
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_F2
 U 1 1 5CBD3729
 P 9700 4150
 F 0 "D_F2" H 9572 4100 60  0000 R CNN
@@ -1295,7 +1293,7 @@ F 3 "" H 9700 4150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_A1
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_A1
 U 1 1 5CBD5A17
 P 10250 1200
 F 0 "SW_A1" H 10250 1455 50  0000 C CNN
@@ -1306,7 +1304,7 @@ F 3 "" H 10250 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_A1
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_A1
 U 1 1 5CBD5A1D
 P 10550 1350
 F 0 "D_A1" H 10422 1300 60  0000 R CNN
@@ -1317,7 +1315,7 @@ F 3 "" H 10550 1350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_B1
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_B1
 U 1 1 5CBD5A23
 P 10250 1750
 F 0 "SW_B1" H 10250 2005 50  0000 C CNN
@@ -1328,7 +1326,7 @@ F 3 "" H 10250 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_B1
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_B1
 U 1 1 5CBD5A29
 P 10550 1900
 F 0 "D_B1" H 10422 1850 60  0000 R CNN
@@ -1339,7 +1337,7 @@ F 3 "" H 10550 1900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_C1
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_C1
 U 1 1 5CBD5A2F
 P 10250 2300
 F 0 "SW_C1" H 10250 2555 50  0000 C CNN
@@ -1350,7 +1348,7 @@ F 3 "" H 10250 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_C1
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_C1
 U 1 1 5CBD5A35
 P 10550 2450
 F 0 "D_C1" H 10422 2400 60  0000 R CNN
@@ -1361,7 +1359,7 @@ F 3 "" H 10550 2450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_F1
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_F1
 U 1 1 5CBD5A53
 P 10250 4000
 F 0 "SW_F1" H 10250 4255 50  0000 C CNN
@@ -1372,7 +1370,7 @@ F 3 "" H 10250 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_F1
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_F1
 U 1 1 5CBD5A59
 P 10550 4150
 F 0 "D_F1" H 10422 4100 60  0000 R CNN
@@ -1433,7 +1431,7 @@ Wire Wire Line
 	1400 2850 1400 3400
 Connection ~ 1400 2850
 $Comp
-L keyboard_parts:D D_E2
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_E2
 U 1 1 5CBD371D
 P 9700 3550
 F 0 "D_E2" H 9572 3500 60  0000 R CNN
@@ -1444,7 +1442,7 @@ F 3 "" H 9700 3550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_E2
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_E2
 U 1 1 5CBD3717
 P 9400 3400
 F 0 "SW_E2" H 9400 3655 50  0000 C CNN
@@ -1766,7 +1764,7 @@ Wire Wire Line
 	10550 1400 10850 1400
 Connection ~ 10550 1400
 $Comp
-L keyboard_parts:SW_PUSH SW_C5
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_C5
 U 1 1 5CB8035E
 P 6850 2300
 F 0 "SW_C5" H 6850 2555 50  0000 C CNN
@@ -1782,7 +1780,7 @@ Wire Wire Line
 	1150 2500 2000 2500
 Connection ~ 2000 2500
 $Comp
-L Microcontroller:ProMicroEliteC U1
+L Split-Keyboard---Right-rescue:ProMicroEliteC-Microcontroller U1
 U 1 1 5D9E153E
 P 4800 4700
 F 0 "U1" H 4900 4865 50  0000 C CNN
@@ -1815,7 +1813,7 @@ F 3 "" H 5350 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW_F9
+L Split-Keyboard---Right-rescue:SW_PUSH-keyboard_parts SW_F9
 U 1 1 5DA5B896
 P 3450 4000
 F 0 "SW_F9" H 3450 4255 50  0000 C CNN
@@ -1826,7 +1824,7 @@ F 3 "" H 3450 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D D_F8
+L Split-Keyboard---Right-rescue:D-keyboard_parts D_F8
 U 1 1 5DA5B89C
 P 4600 4150
 F 0 "D_F8" H 4472 4100 60  0000 R CNN
@@ -1842,4 +1840,6 @@ Wire Wire Line
 Wire Wire Line
 	4000 3400 4000 4000
 Connection ~ 4000 3400
+Text GLabel 4450 5550 0    50   Input ~ 0
+Col4
 $EndSCHEMATC
