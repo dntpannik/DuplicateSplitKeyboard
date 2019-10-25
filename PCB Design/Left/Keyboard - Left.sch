@@ -1731,17 +1731,17 @@ Text GLabel 5650 8050 0    50   Input ~ 0
 Data1
 Text GLabel 5650 7950 0    50   Input ~ 0
 Data2
-Text GLabel 6550 7950 2    50   Input ~ 0
+Text GLabel 5650 8250 0    50   Input ~ 0
 RowA
-Text GLabel 6250 9000 3    50   Input ~ 0
-RowB
-Text GLabel 6150 9000 3    50   Input ~ 0
-RowC
-Text GLabel 6050 9000 3    50   Input ~ 0
-RowD
-Text GLabel 5950 9000 3    50   Input ~ 0
-RowE
 Text GLabel 5850 9000 3    50   Input ~ 0
+RowB
+Text GLabel 6550 8250 2    50   Input ~ 0
+RowC
+Text GLabel 6550 8150 2    50   Input ~ 0
+RowD
+Text GLabel 6550 8050 2    50   Input ~ 0
+RowE
+Text GLabel 6550 7950 2    50   Input ~ 0
 RowF
 Text GLabel 5650 8650 0    50   Input ~ 0
 Col1
@@ -1751,21 +1751,21 @@ Text GLabel 5650 8450 0    50   Input ~ 0
 Col3
 Text GLabel 5650 8350 0    50   Input ~ 0
 Col4
-Text GLabel 5650 8250 0    50   Input ~ 0
+Text GLabel 6550 8350 2    50   Input ~ 0
 Col5
-Text GLabel 6550 8650 2    50   Input ~ 0
+Text GLabel 6550 8450 2    50   Input ~ 0
 Col6
 Text GLabel 6550 8550 2    50   Input ~ 0
 Col7
-Text GLabel 6550 8450 2    50   Input ~ 0
+Text GLabel 6550 8650 2    50   Input ~ 0
 Col8
-Text GLabel 6550 8350 2    50   Input ~ 0
+Text GLabel 6250 9000 3    50   Input ~ 0
 Col9
-Text GLabel 6550 8250 2    50   Input ~ 0
+Text GLabel 6150 9000 3    50   Input ~ 0
 Col10
-Text GLabel 6550 8150 2    50   Input ~ 0
+Text GLabel 6050 9000 3    50   Input ~ 0
 Col11
-Text GLabel 6550 8050 2    50   Input ~ 0
+Text GLabel 5950 9000 3    50   Input ~ 0
 Col12
 Text GLabel 6550 7750 2    50   Input ~ 0
 Reset
@@ -1970,8 +1970,8 @@ F 3 "" H 6550 7650 50  0001 C CNN
 	1    6550 7650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1900 7250 0    50   Input ~ 0
-Data1
 Text GLabel 1350 7250 0    50   Input ~ 0
+Data1
+Text GLabel 1900 7250 0    50   Input ~ 0
 Data2
 $EndSCHEMATC

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\Chris\\Documents\\Repos\\DuplicateSplitKeyboard\\PCB Design\\Right\\Split Keyboard - Right.sch")
-    (date "10/9/2019 6:23:03 PM")
+    (date "10/24/2019 11:16:09 PM")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref J1)
       (value AudioJack4)
-      (footprint Connector_Audio:Jack_3.5mm_PJ320D_Horizontal)
+      (footprint Keebio-Parts:TRRS-PJ-320A)
       (datasheet ~)
       (libsource (lib Connector) (part AudioJack4) (description "Audio Jack, 4 Poles (TRRS)"))
       (sheetpath (names /) (tstamps /))
@@ -808,9 +808,9 @@
     (library (logical Connector)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector.lib"))
     (library (logical Microcontroller)
-      (uri "C:\\Users\\Chris\\Documents\\Repos\\DuplicateSplitKeyboard\\PCB Design\\Keyboard Components\\Microcontroller\\Microcontroller.lib"))
+      (uri "C:/Users/Chris/Documents/Repos/DuplicateSplitKeyboard/PCB Design/Keyboard Components/Microcontroller/Microcontroller.lib"))
     (library (logical keyboard_parts)
-      (uri "C:\\Users\\Chris\\Documents\\Repos\\DuplicateSplitKeyboard\\PCB Design\\Keyboard Components\\kicad_lib_tmk-master\\keyboard_parts.lib")))
+      (uri "C:/Users/Chris/Documents/Repos/DuplicateSplitKeyboard/PCB Design/Keyboard Components/kicad_lib_tmk-master/keyboard_parts.lib")))
   (nets
     (net (code 1) (name Col4)
       (node (ref U1) (pin 26))
